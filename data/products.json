@@ -1,0 +1,53 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Crispy Fried Chicken",
+      "price": "13.00",
+      "url": "./images/meat-2.svg",
+      "category": "Fast Food"
+    },
+    {
+      "id": 2,
+      "title": "Burger Patty Recipe",
+      "price": "15.00",
+      "url": "./images/burger.svg",
+      "category": "Fast Food"
+    },
+    {
+      "id": 3,
+      "title": "Must-Try Dishes ",
+      "price": "12.00",
+      "url": "./images/dish-1.svg",
+      "category": "Rice Menu"
+    },
+    {
+      "id": 4,
+      "title": "Tasty French Fries",
+      "price": "17.00",
+      "url": "./images/french-fries.svg",
+      "category": "Fast Food"
+    },
+    {
+      "id": 5,
+      "title": "Toasted Bread",
+      "price": "19.00",
+      "url": "./images/toastbread.png",
+      "category": "Desserts"
+    },
+    {
+      "id": 6,
+      "title": "Biscuit",
+      "price": "20.00",
+      "url": "./images/biscuit.png",
+      "category": "Fast Food"
+    },
+    {
+      "id": 7,
+      "title": "Ice Cream",
+      "price": "5.00",
+      "url": "./images/ice-cream.png",
+      "category": "Desserts"
+    }
+  ]
+}
