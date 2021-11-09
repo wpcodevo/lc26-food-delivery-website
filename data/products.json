@@ -48,6 +48,76 @@
       "price": "5.00",
       "url": "./images/ice-cream.png",
       "category": "Desserts"
+    },
+    {
+      "id": 8,
+      "title": "Ice Cream",
+      "price": "12.00",
+      "url": "./images/dish-1.png",
+      "category": "Desserts"
+    },
+    {
+      "id": 9,
+      "title": "Ice Cream",
+      "price": "12.00",
+      "url": "./images/dish-2.png",
+      "category": "Rice Menu"
+    },
+    {
+      "id": 10,
+      "title": "Ice Cream",
+      "price": "12.00",
+      "url": "./images/dish-3.png",
+      "category": "Desserts"
+    },
+    {
+      "id": 11,
+      "title": "Ice Cream",
+      "price": "12.00",
+      "url": "./images/dish-4.png",
+      "category": "Pizza"
+    },
+    {
+      "id": 12,
+      "title": "Ice Cream",
+      "price": "12.00",
+      "url": "./images/dish-5.png",
+      "category": "Desserts"
+    },
+    {
+      "id": 13,
+      "title": "Ice Cream",
+      "price": "12.00",
+      "url": "./images/dish-6.png",
+      "category": "Coffee"
+    },
+    {
+      "id": 14,
+      "title": "Ice Cream",
+      "price": "12.00",
+      "url": "./images/dish-7.png",
+      "category": "Coffee"
+    },
+    {
+      "id": 15,
+      "title": "Ice Cream",
+      "price": "12.00",
+      "url": "./images/dish-8.png",
+      "category": "Pizza"
+    },
+    {
+      "id": 16,
+      "title": "Ice Cream",
+      "price": "12.00",
+      "url": "./images/dish-9.png",
+      "category": "Desserts"
+    },
+    {
+      "id": 17,
+      "title": "Ice Cream",
+      "price": "12.00",
+      "url": "./images/dish-9.png",
+      "category": "Desserts"
     }
   ]
 }
