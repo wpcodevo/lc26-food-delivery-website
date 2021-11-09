@@ -1,3 +1,4 @@
+/* ========== Products Slider =========== */
 const swiper = new Swiper(".mySwiper", {
   grabCursor: true,
   slidesPerView: 1,

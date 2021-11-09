@@ -50,6 +50,7 @@ const displayTestimonials = (items) => {
   testimonialsWrapper.innerHTML = testimonials;
 };
 
+/* ========== Filter Testimonials =========== */
 function filter() {
   const testimonial = [...document.querySelectorAll(".testimonial")];
   for (let i = 0; i < cards.length; i++) {
