@@ -111,13 +111,6 @@
       "price": "12.00",
       "url": "./images/dish-9.png",
       "category": "Desserts"
-    },
-    {
-      "id": 17,
-      "title": "Ice Cream",
-      "price": "12.00",
-      "url": "./images/dish-9.png",
-      "category": "Desserts"
     }
   ]
 }
