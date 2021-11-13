@@ -170,6 +170,7 @@ img {
 
 .navbar .btn {
   margin-left: 1rem;
+  cursor: pointer;
 }
 
 .hamburger {
@@ -346,6 +347,100 @@ img {
     text-align: center;
   }
 }
+/* ========== SignIn Form =========== */
+.header .wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 10000;
+  transition: 0.5s;
+  transform: scale(0);
+  opacity: 0;
+  visibility: hidden;
+}
+.header .wrapper.active {
+  transform: scale(1);
+  opacity: 1;
+  visibility: visible;
+}
+.header .wrapper form {
+  background-color: var(--white-color);
+  border: 1px solid var(--grey-color);
+  max-width: 50rem;
+  width: 100%;
+  padding: 2rem;
+  box-shadow: var(--box-shadow);
+  border-radius: 0.5rem;
+  margin: 2rem;
+}
+.header .wrapper form h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+}
+.header .wrapper form .control {
+  margin-bottom: 2rem;
+}
+.header .wrapper form label {
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.header .wrapper form input {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  display: block;
+  border: 1px solid var(--grey-color);
+  padding: 1.3rem 0;
+  text-indent: 1rem;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+.header .wrapper form .checkbox {
+  margin-bottom: 2rem;
+}
+.header .wrapper form .checkbox input {
+  width: auto;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+.header .wrapper form button {
+  display: block;
+  width: 100%;
+  padding: 1.3rem 0;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+.header .wrapper form .links {
+  margin-top: 2rem;
+}
+.header .wrapper form .links span {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+.header .wrapper form .links span a {
+  color: var(--primary-color);
+}
+.header .wrapper form .links span a:hover {
+  text-decoration: underline;
+}
+.header .wrapper .close-form {
+  position: absolute;
+  top: 3rem;
+  right: 4rem;
+  color: var(--default-color);
+  font-size: 4rem;
+  cursor: pointer;
+}
+
 /* ========== Services =========== */
 .services {
   padding: 10rem 0 10rem;
